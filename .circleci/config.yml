@@ -11,7 +11,7 @@ jobs:
       - image: "cimg/base:stable"
     steps:
       - node/install:
-          install-yarn: 1.22.16
+          install-yarn: true
       - checkout
       # install dependencies in both apps
       - run:
